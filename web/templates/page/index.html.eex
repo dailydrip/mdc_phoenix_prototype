@@ -1,0 +1,14 @@
+<h2 class="mdc-typography--display2">Hello, Material Components!</h2>
+
+<%= mdc :textfield do %>
+  <input type="text" class="mdc-textfield__input" id="demo-input">
+  <label for="demo-input" class="mdc-textfield__label">Tell us how you feel!</label>
+<% end %>
+
+<%= mdc :button,
+    raised: true,
+    primary: true,
+    ripple: true
+    do %>
+  Print Greeting
+<% end %>

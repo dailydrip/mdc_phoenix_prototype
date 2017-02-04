@@ -1,0 +1,3 @@
+<div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+  <%= assigns[:do] %>
+</div>

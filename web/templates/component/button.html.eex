@@ -1,0 +1,6 @@
+<button
+  type="submit"
+  class="<%= assigns[:class] %>"
+  data-mdc-auto-init="MDCRipple">
+  <%= assigns[:do] %>
+</button>
